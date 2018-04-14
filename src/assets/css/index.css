@@ -1,0 +1,97 @@
+* {
+margin:0;
+padding:0;
+}
+
+body {
+background-color:#212121;
+color:#ccc;
+font-family:Verdana, Geneva, sans-serif;
+}
+
+a {
+color:#bbdf88;
+text-decoration:none;
+text-transform:uppercase;
+}
+
+button {
+background-color:#f07178;
+color:#fff;
+border:none;
+text-transform:uppercase;
+outline:none;
+padding:10px 20px;
+}
+
+#root {
+max-width:70%;
+margin:100px auto;
+}
+
+.Nav {
+float:right;
+}
+
+.Nav a {
+display:inline-block;
+margin:0 15px;
+}
+
+.Nav a:hover {
+color:#f07178;
+cursor:pointer;
+}
+
+table {
+border:1px solid #333;
+min-width:60%;
+margin:0 auto;
+}
+
+table th {
+text-transform:uppercase;
+}
+
+table td,table th {
+border:1px solid #333;
+text-align:center;
+padding:5px 20px;
+}
+table th:first-of-type,
+table td:first-of-type {
+text-align:left;
+}
+table th:last-of-type,
+table td:last-of-type {
+text-align:right;
+}
+
+table th,table tr:hover {
+background-color:#333;
+cursor:pointer;
+}
+
+.Detail {
+text-align:center;
+}
+
+.spinner {
+display:block;
+text-align:center;
+}
+
+select {
+border:none;
+line-height:30px;
+color:#fff;
+background-color:#f07178;
+min-width:150px;
+text-align:center;
+padding:7px;
+}
+
+button:hover,select:focus {
+background-color:#bbdf88;
+color:#000;
+}
